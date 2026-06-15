@@ -30,7 +30,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Yae_ProboT")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://vplink.in")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vplink.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "4a98bc00521b68207331e70bd5ebe380e8a855e8")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 14400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
